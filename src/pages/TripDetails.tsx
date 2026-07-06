@@ -97,7 +97,7 @@ export default function TripDetails() {
       <div className="page__header">
         <div>
           <p className="page__eyebrow">Viaje #{trip.id}</p>
-          <h1>{trip.pickupAddress}</h1>
+          <h1>{trip.dropoffAddress}</h1>
         </div>
       </div>
 
